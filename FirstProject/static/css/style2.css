@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.background { /* This takes care of the background */
+    height: 60em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.background > h4 {
+    color: #000;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.container{ /* This takes care of the card with login details */
+text-align: center;
+height: 70%;
+align-content: center;
+}
+
+.card{ /* This takes care of the card with login details */
+text-align: center;
+height: 600px;
+margin-top: auto;
+margin-bottom: auto;
+width: 450px;
+background-color: rgba(0,0,0,0.5)!important;
+}
+
+.input-group-prepend span{ /* This controls logo of buttons and its color */
+text-align: center;
+width: 50px;
+background-color: #E6EDF8;
+color: black;
+border:1 !important;
+}
+
+.input-group-forText span{
+text-align: center;
+width: 50px;
+background-color: #E6EDF8;
+color: black;
+border:0 !important;
+}
+
+input:focus{ /* This controls The text once entered in login and password*/
+text-align: center;
+outline: 0 0 0 0 !important;
+box-shadow: 0 0 0 0 !important;
+}
+
+.remember{ /* This controls The Remember Me text  */
+text-align: center;
+color: white;
+}
+
+.remember input /* This controls The Remember Me text position and alignment */
+{
+text-align: center;
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{ /* This controls The Login button properties */
+text-align: center;
+color: black;
+background-color: #0751BC;
+width: 100px;
+}
+
+.login_btn:hover{ /* This controls The Login button properties upon hovering */
+text-align: center;
+color: black;
+background-color: white;
+}
+
+.links{ /* This controls The text below login button, example "Dont have an account, Register" */
+text-align: center;
+color: white;
+}
+
+.links a{
+text-align: center;
+margin-left: 4px;
+}
+
+.errorlist
+    {
+        color: white;
+		text-align: left;
+    }
+
+#messages
+    {
+        color: white;
+		text-align: center;
+    }

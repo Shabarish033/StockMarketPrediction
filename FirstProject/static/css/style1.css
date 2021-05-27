@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.background { /* This takes care of the background */
+    height: 60em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.background > h4 {
+    color: #000;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+
+.container{ /* This takes care of the card with login details */
+text-align: center;
+height: 100%;
+align-content: center;
+}
+
+.card{ /* This takes care of the card with login details */
+text-align: center;
+height: 90vh;
+margin-top: auto;
+margin-bottom: auto;
+width: 500px;
+background-color: rgba(0,0,0,0.5)!important;
+}
+
+.input-group-prepend span{ /* This controls logo of button and its color */
+text-align: center;
+width: 100px;
+background-color: #E6EDF8;
+color: black;
+border:0 !important;
+}
+
+.input-group-forText span{
+text-align: center;
+width: 100px;
+background-color: #E6EDF8;
+color: black;
+border:0 !important;
+}
+
+
+input:focus{ /* This controls The text once entered in login and password*/
+text-align: center;
+width: 200px;
+outline: 0 0 0 0 !important;
+box-shadow: 0 0 0 0 !important;
+}
+
+
+.login_btn{ /* This controls The Login button properties */
+text-align: center;
+color: black;
+background-color: #0751BC;
+width: 100px;
+}
+
+.login_btn:hover{ /* This controls The Login button properties upon hovering */
+text-align: center;
+color: black;
+background-color: white;
+}
+
+
+.errorlist
+    {
+        color: white;
+		text-align: left;
+    }
+
+#messages
+    {
+        color: white;
+		text-align: center;
+    }

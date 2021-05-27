@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+.background { /* This takes care of the background */
+    height: 60em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.background > h4 {
+    color: #000;
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+.container{ /* This takes care of the card with login details */
+text-align: center;
+color: white;
+height: 50%;
+align-content: center;
+}
+
+.card{ /* This takes care of the card with login details */
+text-align: center;
+color: white;
+height: 50vh;
+margin-top: auto;
+margin-bottom: auto;
+width: 1200px;
+background-color: rgba(0,0,0,0.5)!important;
+}
+
+.Hello_msg{
+  font-size: 18px;
+  color: #fff;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+
+label {
+    font-family: "Fira Sans", sans-serif;
+    border: 1;
+    width: 250px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    text-align: center;
+    color: black;
+    border-radius: 1px;
+    background-color: #E6EDF8;
+    margin:10px 10px
+}
+
+
+.login_btn{ /* This controls The Login button properties */
+text-align: center;
+color: black;
+background-color: #0751BC;
+width: 60px;
+}
+
+.login_btn:hover{ /* This controls The Login button properties upon hovering */
+text-align: center;
+color: black;
+background-color: white;
+}
+
+
+.errorlist
+{
+color: white;
+text-align: left;
+}
